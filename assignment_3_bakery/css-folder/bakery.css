@@ -1,0 +1,394 @@
+body {
+  margin: 0px;
+}
+
+/* start 1st background section */
+.first-background-section {
+  background-image: url(../Route_images_3/drew-coffman-1872.jpg);
+  color: white;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+  background-position: center;
+}
+
+.logo img {
+  width: 180px;
+  position: absolute;
+  left: 150px;
+  top: 20px;
+}
+
+.content {
+  text-align: center;
+  position: absolute;
+  top: 220px;
+  left: 450px;
+}
+
+.content p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 23;
+}
+
+h1 {
+  font-family: "Alegreya", serif;
+  font-size: 75;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.first-background-section .buttons {
+  position: absolute;
+  top: 540px;
+  left: 630px;
+}
+
+.first-background-section button {
+  width: 130px;
+  height: 60px;
+  font-size: 16;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-inline: 5px;
+}
+
+.left-btn {
+  background-color: #8e7754;
+  border: none;
+}
+
+.right-btn {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+/* end 1st background section */
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* start our details section */
+
+.our-details-section {
+  margin-bottom: 100px;
+}
+
+.our-details-section .image-one {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image-one img {
+  width: 75%;
+  padding: 90px 0px 0px 160px;
+}
+
+.image-one,
+.content-part {
+  width: 50%;
+}
+
+.content-part {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  padding-left: 50px;
+  margin-top: 120px;
+}
+
+.content-part h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40;
+}
+
+.content-part .features {
+  padding: 0px;
+}
+
+.content-part .features li {
+  margin: 15px 0px;
+  list-style: none;
+}
+
+.features .leaf img,
+.features .people img,
+.features .heart img,
+.features .check img {
+  width: 40px;
+  position: relative;
+  right: 5px;
+  top: 15px;
+  border: 1px solid #a5a3a3;
+  border-radius: 50%;
+}
+
+.content-part p,
+.features {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20;
+}
+
+.content-part p {
+  padding: 10px 0px;
+  color: #686868;
+}
+
+/* end our details section */
+
+/* $$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* start our location section */
+
+.our-location {
+  background-color: #f8f8f8;
+  padding: 100px 0px 100px 0px;
+}
+
+.content-part-two {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding: 60px 0px 0px 140px;
+}
+
+.our-location .image-two {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+
+.image-two img {
+  width: 75%;
+}
+
+.content-part-two h2 {
+  text-transform: capitalize;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 40;
+  font-weight: 400;
+}
+
+.content-part-two p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18;
+  color: #686868;
+}
+
+/* end our location section */
+
+/* $$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* start our baking section */
+
+.content-part-three {
+  text-align: center;
+}
+
+.content-part-three h2 {
+  text-transform: capitalize;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 40;
+  font-weight: 400;
+}
+
+.content-part-three p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20;
+  color: #686868;
+}
+
+.packages {
+  margin-left: 140px;
+  width: 90%;
+}
+
+.packages .part-one,
+.packages .part-two,
+.packages .part-three {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+}
+
+.packages .image-three img,
+.packages .image-four img,
+.packages .image-five img {
+  width: 100%;
+}
+
+.packages .part-two {
+  margin: 40px 20px 40px 20px;
+}
+
+.packages h3 {
+  text-transform: capitalize;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 35;
+  font-weight: 400;
+}
+
+.packages p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18;
+  color: #686868;
+}
+
+/* end our baking section */
+
+/* $$$$$$$$$$$$$$$$$$$$$$ */
+
+/* start contact information section */
+
+.contact-section {
+  background-color: #f8f8f8;
+  padding: 100px 0px 80px 100px;
+}
+
+.contact-section .information,
+.iframe {
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.information h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40;
+  margin-top: 0px;
+}
+
+.information p,
+.information ul {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20;
+  color: #686868;
+}
+
+.information ul {
+  list-style: none;
+  padding: 0%;
+}
+
+.information .map img,
+.information .phone img,
+.information .headphone img,
+.information .email img {
+  width: 40px;
+  position: relative;
+  right: 5px;
+  top: 15px;
+  border-radius: 50%;
+  background-color: #8e7754;
+}
+
+.contact-section .iframe {
+  margin-left: 160px;
+}
+/* end contact information section */
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* start about us section */
+
+.about-us-section {
+  background-color: #403d38;
+  padding: 100px 0px 100px 150px;
+}
+
+.about-us-section h4 {
+  color: white;
+  font-family: "Alegreya Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 17;
+}
+
+.about-us-section .about-bus p {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #969696;
+}
+
+.about-us-section ul {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #969696;
+  font-size: 16;
+  list-style: none;
+}
+
+.about-us-section .why-are-we-here ul img,
+.about-us-section .opening-years ul img {
+  position: relative;
+  right: 5px;
+  top: 9px;
+  width: 27px;
+}
+
+.about-us-section .why-are-we-here ul li,
+.about-us-section .opening-years ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-us-section .contact-details ul img {
+  position: relative;
+  right: 5px;
+  top: 9px;
+  width: 27px;
+}
+
+.about-us-section .contact-details ul {
+  background-image: url(../Route_images_3/contact-details-map.png);
+}
+
+.about-us-section .about-bus,
+.about-us-section .why-are-we-here,
+.about-us-section .opening-years,
+.about-us-section .contact-details {
+  float: left;
+}
+
+/* end about us section */
+
+/* $$$$$$$$$$$$$$$$$$$$$$ */
+
+/* start end section */
+
+.end {
+  background-color: #353330;
+  text-align: center;
+}
+
+.end .end-image {
+  padding-top: 60px;
+}
+
+.end p {
+  color: #9a9998;
+  font-family: "Alegreya Sans", sans-serif;
+  padding-top: 20px;
+}
+
+.end .facebook img,
+.end .google img,
+.end .linkedin img,
+.end .twitter img {
+  width: 40px;
+  float: left;
+  background-color: #484540;
+  border-radius: 50%;
+}
+
+.end .last-icons {
+  padding: 20px 0px 70px 680px;
+}
+
+/* end start section ;D */
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */

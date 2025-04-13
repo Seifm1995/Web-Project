@@ -1,0 +1,97 @@
+/* start hero section */
+body {
+  margin: 0px;
+}
+
+.hero-section {
+  background-image: url(../Route_images_4/slider-02.jpg);
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  overflow: auto;
+  background-position: center;
+}
+
+.hero-section .black {
+  background-color: rgba(0, 0, 0, 0.738);
+  height: 100vh;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  left: 200px;
+  text-decoration: underline;
+  font-size: 30;
+  color: #ff305b;
+  font-family: "Roboto", sans-serif;
+}
+
+.content-one {
+  text-align: center;
+  position: absolute;
+  top: 280px;
+  left: 580px;
+  vertical-align: middle;
+}
+
+.hero-section .content-one .hello {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 25;
+  font-weight: 500;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 70;
+  text-transform: uppercase;
+  margin: 0px;
+  color: #ff305b;
+}
+
+.hero-section .content-one .professional {
+  font-family: "Source Sans 3", sans-serif;
+  text-transform: capitalize;
+  font-size: 25;
+  font-weight: 300;
+  margin: 0px;
+}
+
+/* start hero section */
+/* $$$$$$$$$$$$$$$$$$$$$$$ */
+/* start hello section */
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.hello-section .image-one {
+  float: left;
+  margin: 100px 50px 100px 200px;
+}
+
+.hello-section .image-one img {
+  border-radius: 10px;
+}
+
+.hello-section .content {
+  background-color: #ff6200;
+  float: left;
+  margin: 100px 10px 100px 50px;
+}
+
+.h2-one {
+  text-transform: uppercase;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 35;
+  font-weight: 600;
+}
+
+.hello-section .clear {
+  clear: both;
+}
+
+/* end hello section */
+/* $$$$$$$$$$$$$$$$$$$$$$$ */
